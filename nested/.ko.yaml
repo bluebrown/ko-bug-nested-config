@@ -1,0 +1,5 @@
+builds:
+  - id: test
+    dir: ../
+    main: ./cmd/app/
+    flags: [-tags, mytag]
